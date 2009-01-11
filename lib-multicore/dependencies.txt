@@ -1,0 +1,6 @@
+- haXe 2.0.2
+- Neko 1.8.0
+get installer for both here:
+http://haxe.org/download
+
+- PureMVC_haXe_MultiCore_2_0_4
