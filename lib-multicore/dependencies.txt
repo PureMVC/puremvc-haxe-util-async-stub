@@ -3,4 +3,4 @@
 get installer for both here:
 http://haxe.org/download
 
-- PureMVC_haXe_MultiCore_2_0_4
+- PureMVC_Haxe_MultiCore 1.2
