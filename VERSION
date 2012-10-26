@@ -1,7 +1,4 @@
-PureMVC Utility - Asynchronous Stub 
-Copyright (c) 2008, Philip Sexton <philip.sexton@puremvc.org>
-Ported to Haxe by Zjnue Brzavi <zjnue.brzavi@puremvc.org>
-Your reuse is governed by the Creative Commons Attribution 3.0 License
+PureMVC Haxe Utility - Asynchronous Stub (Ported)
 --------------------------------------------------------------------------
 Release Date: 1/11/09
     Platform: Haxe
@@ -9,7 +6,6 @@ Release Date: 1/11/09
     Revision: 1
      Authors: Philip Sexton <philip.sexton@puremvc.org>
             : Zjnue Brzavi <zjnue.brzavi@puremvc.org>
-     License: Creative Commons Attribution 3.0 United States License
 --------------------------------------------------------------------------
 1.1 - Libraries contain version number - CLH
 1.0 - Initial port - ZB
