@@ -4,62 +4,62 @@
 
 # build flash10 library
 # change the following line to the path of pureMVC framework sources
--cp ../../../pmvc_haxe_multicore/src
+-cp ../../puremvc-haxe-multicore-framework/src
 -cp ../src-multicore
--swf ../bin-multicore/puremvc_haxe_multicore_utilities_asyncstub_fl10.swf
+-swf ../bin-multicore/Utility_Haxe_MultiCore_AsyncStub_1_1_fl10.swf
 -swf-version 10
 ImportAll
 
 # build flash9 library
 --next
 # change the following line to the path of pureMVC framework sources
--cp ../../../pmvc_haxe_multicore/src
+-cp ../../puremvc-haxe-multicore-framework/src
 -cp ../src-multicore
--swf ../bin-multicore/puremvc_haxe_multicore_utilities_asyncstub_fl9.swf
+-swf ../bin-multicore/Utility_Haxe_MultiCore_AsyncStub_1_1_fl9.swf
 -swf-version 9
 ImportAll
 
 # build flash8 library
 --next
 # change the following line to the path of pureMVC framework sources
--cp ../../../pmvc_haxe_multicore/src
+-cp ../../puremvc-haxe-multicore-framework/src
 -cp ../src-multicore
--swf ../bin-multicore/puremvc_haxe_multicore_utilities_asyncstub_fl8.swf
+-swf ../bin-multicore/Utility_Haxe_MultiCore_AsyncStub_1_1_fl8.swf
 -swf-version 8
 ImportAll
 
 # build flash7 library
 --next
 # change the following line to the path of pureMVC framework sources
--cp ../../../pmvc_haxe_multicore/src
+-cp ../../puremvc-haxe-multicore-framework/src
 -cp ../src-multicore
--swf ../bin-multicore/puremvc_haxe_multicore_utilities_asyncstub_fl7.swf
+-swf ../bin-multicore/Utility_Haxe_MultiCore_AsyncStub_1_1_fl7.swf
 -swf-version 7
 ImportAll
 
 # build flash6 library
 --next
 # change the following line to the path of pureMVC framework sources
--cp ../../../pmvc_haxe_multicore/src
+-cp ../../puremvc-haxe-multicore-framework/src
 -cp ../src-multicore
--swf ../bin-multicore/puremvc_haxe_multicore_utilities_asyncstub_fl6.swf
+-swf ../bin-multicore/Utility_Haxe_MultiCore_AsyncStub_1_1_fl6.swf
 -swf-version 6
 ImportAll
 
 # build javascript library
 --next
 # change the following line to the path of pureMVC framework sources
--cp ../../../pmvc_haxe_multicore/src
+-cp ../../puremvc-haxe-multicore-framework/src
 -cp ../src-multicore
--js ../bin-multicore/puremvc_haxe_multicore_utilities_asyncstub.js
+-js ../bin-multicore/Utility_Haxe_MultiCore_AsyncStub_1_1_js.js
 ImportAll
 
 # build docs
 # use the following command-line action to generate docs:
-# haxedoc puremvc_haxe_multicore_utilities_asyncstub_docs.xml -f Array -f Bool -f org -f Class -f Dynamic -f Enum -f float -f Hash -f Int -f Iter -f List -f Math -f Null -f Reflect -f Std -f String -f Type -f Void -f Value
+# haxedoc Utility_Haxe_MultiCore_AsyncStub_1_1_docs.xml -f Array -f Bool -f org -f Class -f Dynamic -f Enum -f float -f Hash -f Int -f Iter -f List -f Math -f Null -f Reflect -f Std -f String -f Type -f Void -f Value
 --next
 # change the following line to the path of pureMVC framework sources
--cp ../../../pmvc_haxe_multicore/src
+-cp ../../puremvc-haxe-multicore-framework/src
 -cp ../src-multicore
 -neko ../doc-multicore/all.n
 -xml ../doc-multicore/puremvc_haxe_multicore_utilities_asyncstub_docs.xml
