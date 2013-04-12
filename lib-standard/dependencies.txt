@@ -1,6 +1,4 @@
-- haXe 2.0.2
-- Neko 1.8.0
-get installer for both here:
-http://haxe.org/download
+* https://github.com/PureMVC/puremvc-haxe-standard-framework.git
 
-- PureMVC_Haxe 1.2
+Notes
+Supports both Haxe 2 and 3

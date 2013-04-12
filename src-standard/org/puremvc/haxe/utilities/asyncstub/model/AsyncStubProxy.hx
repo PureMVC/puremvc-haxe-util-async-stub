@@ -27,7 +27,11 @@ import org.puremvc.haxe.patterns.proxy.Proxy;
  *
  * <p>See the demo StartupAsOrdered for an example of use.</p>
  */
+#if haxe3
+class AsyncStubProxy<T> extends Proxy implements IProxy
+#else
 class AsyncStubProxy<T> extends Proxy, implements IProxy
+#end
 {
 	public var maxDelayMSecs( default, default ) : Int;
 	public var probabilityOfFault( default, default ) : Float;
@@ -136,7 +140,11 @@ class Timer {
 	
 	function tock() {
 		var main : neko.vm.Thread = neko.vm.Thread.readMessage(true);
+		#if haxe3
+		Sys.sleep( milliInterval / 1000. );
+		#else
 		neko.Sys.sleep( milliInterval / 1000. );
+		#end
 		main.sendMessage("back to you");
 	}
 	#else
