@@ -4,8 +4,8 @@ The Asynchronous Stub utility consists of a Proxy which can be extended for the 
 * [Discussion](http://forums.puremvc.org/index.php?topic=887)
 
 ## API Docs
-* [Standard Version](http://darkstar.puremvc.org/content_header.html?url=http://puremvc.org/pages/docs/Haxe/Utility_Haxe_AsyncStub/doc-standard/&desc=PureMVC%20Standard%20Docs%20Haxe%20Utility:%20Async%20Stub)
-* [MultiCore Version](http://darkstar.puremvc.org/content_header.html?url=http://puremvc.org/pages/docs/Haxe/Utility_Haxe_AsyncStub/doc-multicore/&desc=PureMVC%20MultiCore%20Docs%20Haxe%20Utility:%20Async%20Stub)
+* [Standard Version](http://puremvc.org/pages/docs/Haxe/Utility_Haxe_AsyncStub/doc-standard/)
+* [MultiCore Version](http://puremvc.org/pages/docs/Haxe/Utility_Haxe_AsyncStub/doc-multicore/)
 
 ## Status
 Production - [Version 1.2](https://github.com/PureMVC/puremvc-haxe-util-async-stub/blob/master/VERSION)
